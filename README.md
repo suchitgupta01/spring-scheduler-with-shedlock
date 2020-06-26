@@ -15,3 +15,5 @@ Also, create the required LockProvider bean required for Shedlock.
 
 The sample tasks with Shedlock.
 
+https://medium.com/@suchit.g/use-spring-scheduler-in-clustered-environment-9de27251763f
+
