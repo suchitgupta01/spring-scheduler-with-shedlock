@@ -1,0 +1,12 @@
+spring:
+  datasource:
+      url: jdbc:postgresql://localhost:5432/shedlock
+      username: shedlock_sample
+      password: Welcome123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: public
+  flyway:
+    locations: classpath:db/migration

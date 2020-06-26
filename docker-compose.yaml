@@ -1,0 +1,12 @@
+version: '3.0'
+services:
+  postgresql:
+    image: sameersbn/postgresql:9.4
+    container_name: postgresql
+    environment:
+      - DEBUG=false
+      - DB_USER=shedlock_sample
+      - DB_PASS=Welcome123
+      - DB_NAME=shedlock
+    ports:
+      - "5432:5432"
